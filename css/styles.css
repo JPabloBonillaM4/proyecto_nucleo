@@ -1,0 +1,172 @@
+.barra_navegacion .opciones a{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(113,145,160) !important;
+    font-weight: 600;
+}
+
+.barra_navegacion .opciones li:nth-child(5) a{
+    color: rgb(145,153,156) !important;
+}
+
+.titulo h2{
+    color: rgb(64,51,123) !important;
+}
+
+.titulo p{
+    color: rgb(161,171,172) !important;
+}
+
+.principal{
+    background-image: url('../img/inicio.jpg');
+    -webkit-background-size: center center;
+    -moz-background-size: center center;
+    -o-background-size: center center;
+    background-size: center center;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 568px){
+    .principal{
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+.creditos{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tipo_credito,
+.tarjeta{
+    -webkit-box-shadow: 5px 5px 10px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 10px -8px rgba(0,0,0,1);
+    box-shadow: 5px 5px 10px -8px rgba(0,0,0,1);
+}
+
+.tipo_credito{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tipo_credito ul li{
+    background-color: rgb(241, 250, 255);
+}
+
+.info{
+    color: rgb(197, 192, 215);
+    font-size: 13px;
+}
+
+.boton_calcular{
+    background-color: rgb(197, 192, 215) !important;
+}
+
+.borde_inferior_creditos{
+    background-color: rgb(63, 47, 120);
+    height: 7px;
+}
+
+/* SECCION 2 */
+
+.seccion_2 h3{
+    color: rgb(99, 166, 208);
+}
+
+.seccion_2 div p,
+.seccion_2 p:last-of-type span{
+    color: rgb(197, 192, 215) !important;
+}
+
+.seccion_2 p,
+.fuente_base{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SECCION 3 */
+.seccion_3 h5{
+    color: rgb(85, 75, 125);
+}
+
+.productos_info{
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+@media only screen and (min-width: 568px)
+{
+    .productos_info{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;    
+    }
+}
+
+.tarjeta{
+    height: 100%;
+}
+
+.lista{
+    padding-inline-start: 4rem;
+    padding-inline-end: 4rem;
+    text-align: justify;
+}
+
+.lista li p{
+    color: rgb(165, 169, 168);
+    font-weight: bold;
+}
+
+.lista li{
+    color: rgb(180, 209, 217);
+}
+
+.seccion_3 h2,
+.seccion_4 h2{
+    color: rgb(173, 165, 204);
+}
+
+/* BENEFICIOS */
+.beneficios{
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+@media only screen and (min-width: 568px)
+{
+    .beneficios{
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 3rem;    
+    }
+}
+
+.beneficios i{
+    color: rgb(111, 135, 147);
+    font-size: 5rem;
+}
+
+.beneficios p{
+    color: rgb(165, 169, 168);
+}
+
+/* FOOTER */
+.footer{
+    display: grid;
+}
+
+@media only screen and (min-width: 568px)
+{
+    .footer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.footer_gris{
+    background-color: rgb(249, 249, 249);
+}
+
+.footer i{
+    color: rgb(111, 135, 147);
+    font-size: 4rem;
+}
