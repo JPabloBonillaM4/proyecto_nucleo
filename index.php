@@ -14,7 +14,7 @@
 
     <!-- SECCION-2 -->
     <div class="row m-0">
-        <div class="col-md-9 seccion_2 m-auto">
+        <div class="col-lg-9 seccion_2 m-auto">
             <div class="text-center">
                 <h3 class="text-uppercase font-weight-bold mt-3">¡El tiempo es dinero!</h3>
                 <p class="text-center mt-3 mb-4">Tramita tu crédito en línea con nucleo capital y obtén <br> respuesta en tan solo unos minutos.</p>
@@ -28,7 +28,7 @@
         <div class="col-md-12">
             <h2 class="font-weight-bold text-center mb-5">Productos</h2>
         </div>
-        <div class="row col-md-9 m-auto justify-content-between productos_info">
+        <div class="row col-lg-9 m-auto justify-content-between productos_info">
             <div class="tarjeta bg-white rounded py-3">
                 <h5 class="text-uppercase font-weight-bold text-center">Crédito simple emprendedor:</h5>
                 <ul class="lista mt-4">
@@ -147,7 +147,7 @@
         <div class="col-md-12">
             <h2 class="text-center font-weight-bold mb-5">Beneficios</h2>
         </div>
-        <div class="row col-md-9 m-auto text-center">
+        <div class="row col-lg-9 m-auto text-center">
             <div class="beneficios">
                 <div>
                     <i class="far fa-clock"></i>
