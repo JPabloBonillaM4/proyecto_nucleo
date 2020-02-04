@@ -1,8 +1,8 @@
 /* FONDOS */
 .principal{
-    -webkit-background-size: center center;
-    -moz-background-size: center center;
-    -o-background-size: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -18,6 +18,10 @@
 
 .documentos{
     background-image: url('../img/subir-documentos.jpg');
+}
+
+.rechazado{
+    background-image: url('../img/credito-rechazado.jpg');
 }
 
 @media only screen and (min-width: 768px) and (min-height: 600px){
@@ -56,7 +60,10 @@
 }
 
 .tipo_credito,
-.tarjeta{
+.tarjeta,
+.aprobado .creditos > div > div,
+.documentos .creditos > div > div > div,
+.credito_rechazado{
     -webkit-box-shadow: 5px 5px 10px -8px rgba(0,0,0,1);
     -moz-box-shadow: 5px 5px 10px -8px rgba(0,0,0,1);
     box-shadow: 5px 5px 10px -8px rgba(0,0,0,1);
@@ -169,12 +176,14 @@
 /* FOOTER */
 .footer{
     display: grid;
+    grid-row-gap: 2rem;
 }
 
 @media only screen and (min-width: 568px)
 {
     .footer{
         grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 0;
     }
 }
 
@@ -184,7 +193,7 @@
 
 .footer i{
     color: rgb(111, 135, 147);
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .credito_aprobado{
@@ -195,10 +204,10 @@
     background-color: rgb(197, 191, 217);
 }
 
-.credito_aprobado a{
+.credito_aprobado a,
+.credito_rechazado a{
     text-decoration: none;
     color: rgb(91, 81, 131);
-    margin-left: -1rem;
 }
 
 @media only screen and (max-width: 768px)
@@ -222,4 +231,21 @@
 .lista_documentos i
 {
     color: rgb(74, 175, 221);
+}
+
+.agregar_documento{
+    position: relative;
+}
+
+.agregar_documento input[type="file"]{
+    opacity: 0;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+}
+
+/* RECHAZADO */
+.credito_rechazado h2{
+    color: rgb(167 , 167 , 167);
 }

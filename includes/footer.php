@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="d-flex align-items-center justify-content-center">
-                <i class="fas fa-phone"></i>
+                <i class="fas fa-phone" style="transform: rotateY(180deg);"></i>
                 <div class="ml-4">
                     <p>(81) 6667 8797</p>
                 </div>
