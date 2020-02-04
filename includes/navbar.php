@@ -1,6 +1,6 @@
 <nav class="row navbar navbar-expand-lg barra_navegacion p-4 navbar-light mr-0">
     <div class="col-md-5">
-        <img class="img-fluid" src="#" alt="Logo_empresa">
+        <img class="img-fluid" src="../img/" alt="Logo_empresa">
     </div>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones" aria-controls="opciones" aria-expanded="false" aria-label="Toggle navigation">

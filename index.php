@@ -1,6 +1,6 @@
 <?php include('includes/principal/head.php'); ?>
 
-    <div class="principal">
+    <div class="principal inicio">
         <!-- NAVBAR -->
         <?php include('includes/navbar.php'); ?>
 
