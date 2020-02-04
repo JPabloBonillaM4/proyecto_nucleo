@@ -1,6 +1,6 @@
 <div class="row m-0 mt-5 py-4 fuente_base">
     <div class="col-md-12">
-        <h4 class="font-weight-bold">Contáctanos</h4>
+        <h4 class="font-weight-bold ml-5">Contáctanos</h4>
         <div class="row col-lg-9 m-auto footer pt-4">
             <div class="d-flex align-items-center justify-content-center">
                 <i class="fas fa-map-marker-alt"></i>

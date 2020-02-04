@@ -1,5 +1,5 @@
 <nav class="row navbar navbar-expand-lg barra_navegacion p-4 navbar-light mr-0">
-    <div class="col-md-5">
+    <div class="col-md-4">
         <img class="img-fluid" src="../img/" alt="Logo_empresa">
     </div>
 
@@ -7,7 +7,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="col-md-7 opciones collapse navbar-collapse justify-content-end" id="opciones">
+    <div class="col-md-8 opciones collapse navbar-collapse justify-content-end" id="opciones">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#">Cotizador</a>

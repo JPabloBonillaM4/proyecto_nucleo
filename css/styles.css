@@ -24,6 +24,10 @@
     background-image: url('../img/credito-rechazado.jpg');
 }
 
+.calcular_pago{
+    background-image: url('../img/solicitud.jpg');
+}
+
 @media only screen and (min-width: 768px) and (min-height: 600px){
     .principal{
         -webkit-background-size: 100% 100%;
@@ -205,20 +209,24 @@
 }
 
 .credito_aprobado a,
-.credito_rechazado a{
+.credito_rechazado a,
+.opciones_calcular a:first-of-type{
     text-decoration: none;
     color: rgb(91, 81, 131);
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 480px)
 {
-    .credito_aprobado h2{
+    .credito_aprobado h2,
+    .credito_rechazado h2
+    {
         text-align: center;
     }
 }
 
 /* DOCUMENTOS */
-.documentos_info h4
+.documentos_info h4,
+.calcular_info h5
 {
     color: rgb(63, 48, 113);
 }
@@ -248,4 +256,15 @@
 /* RECHAZADO */
 .credito_rechazado h2{
     color: rgb(167 , 167 , 167);
+}
+
+/* CALCULAR PAGO */
+.opciones_calcular{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.opciones_calcular a:last-of-type{
+    background-color: rgb(197, 192, 215);
+    text-decoration: none;
 }

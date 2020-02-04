@@ -17,8 +17,8 @@
                                 <li>
                                     <hr class="m-0">
                                     <div class="d-flex justify-content-between align-items-center py-1">
-                                        <div class="ml-5">
-                                            <input type="checkbox" name="" id="">
+                                        <div class="ml-5 text-center">
+                                            <input type="checkbox" name="" id="" checked>
                                             <label for="" class="m-0">Constitutiva con datos de registro, asambleas y poderes</label>
                                         </div>
                                         <div class="agregar_documento">
@@ -30,8 +30,8 @@
                                 <li>
                                     <hr class="m-0">
                                     <div class="d-flex justify-content-between align-items-center py-1">
-                                        <div class="ml-5">
-                                            <input type="checkbox" name="" id="">
+                                        <div class="ml-5 text-center">
+                                            <input type="checkbox" name="" id="" checked>
                                             <label for="" class="m-0">Identificaciones accionistas y rep legal</label>
                                         </div>
                                         <div class="agregar_documento">
@@ -43,7 +43,7 @@
                                 <li>
                                     <hr class="m-0">
                                     <div class="d-flex justify-content-between align-items-center py-1">
-                                        <div class="ml-5">
+                                        <div class="ml-5 text-center">
                                             <input type="checkbox" name="" id="">
                                             <label for="" class="m-0">Cédula fiscal principal accionista y rep legal</label>
                                         </div>
@@ -56,7 +56,7 @@
                                 <li>
                                     <hr class="m-0">
                                     <div class="d-flex justify-content-between align-items-center py-1">
-                                        <div class="ml-5">
+                                        <div class="ml-5 text-center">
                                             <input type="checkbox" name="" id="">
                                             <label for="" class="m-0">Comprobante de domicilio accionista y rep legal</label>
                                         </div>
@@ -69,7 +69,7 @@
                                 <li>
                                     <hr class="m-0">
                                     <div class="d-flex justify-content-between align-items-center py-1">
-                                        <div class="ml-5">
+                                        <div class="ml-5 text-center">
                                             <input type="checkbox" name="" id="">
                                             <label for="" class="m-0">Cédula fiscal empresa</label>
                                         </div>
@@ -82,7 +82,7 @@
                                 <li>
                                     <hr class="m-0">
                                     <div class="d-flex justify-content-between align-items-center py-1">
-                                        <div class="ml-5">
+                                        <div class="ml-5 text-center">
                                             <input type="checkbox" name="" id="">
                                             <label for="" class="m-0">Comprobante de domicilio empresa</label>
                                         </div>
@@ -99,7 +99,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <?php include('includes/footer.php'); ?>
