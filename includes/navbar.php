@@ -1,6 +1,8 @@
 <nav class="row navbar navbar-expand-lg barra_navegacion p-4 navbar-light mr-0">
     <div class="col-md-4">
-        <img class="img-fluid" src="../img/" alt="Logo_empresa">
+        <a href="index.php">
+            <img class="img-fluid" src="../img/" alt="Logo_empresa">
+        </a>
     </div>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones" aria-controls="opciones" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +15,7 @@
                 <a class="nav-link" href="#">Cotizador</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Créditos</a>
+                <a class="nav-link" href="creditos_S_R.php">Créditos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Átomo</a>

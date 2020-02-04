@@ -1,6 +1,6 @@
 <?php include('includes/principal/head.php'); ?>
 
-    <div class="calcular_pago principal">
+    <div class="calcular_pago_2 principal">
         <!-- NAVBAR -->
         <?php include('includes/navbar.php'); ?>
 
@@ -12,11 +12,8 @@
                         <div class="pb-4">
                             <h5 class="font-weight-bold pl-5 m-0 py-4">Crédito Revolvente</h5>
                             <div class="ml-5 pl-4">
-                                <p class="m-0">Línea de crédito solicitada: <span class="font-weight-bold">$100,000.00</span></p>
-                                <p class="m-0">Simulación de primer disposición</p>
-                                <p class="m-0">Monto: <span class="font-weight-bold">$100,000.00</span></p>
-                                <p class="m-0">Plazo: <span class="font-weight-bold">15 días</span></p>
-                                <p class="m-0">Monto a pagar por disposición: <span class="font-weight-bold">$101,750.00</span></p>
+                                <p class="m-0">$100,000</p>
+                                <p class="m-0">A 15 días</p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center opciones_calcular mt-5">
                                 <a href="#" class="text-center"><i class="fas fa-chevron-left"></i> Regresar y calcular de nuevo</a>
