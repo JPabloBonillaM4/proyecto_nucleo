@@ -23,7 +23,7 @@
                         </div>
 
                         <div class="col-lg-3 p-0">
-                            <a href="#" class="font-weight-bold"><i class="fas fa-chevron-left"></i> Regresar</a>
+                            <a href="#" onclick="window.history.back();" class="font-weight-bold"><i class="fas fa-chevron-left"></i> Regresar</a>
                         </div>
                     </div>
                     <div class="borde_inferior_creditos rounded-bottom"></div>

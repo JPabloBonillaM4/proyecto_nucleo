@@ -11,18 +11,20 @@
 
     <div class="col-md-8 opciones collapse navbar-collapse justify-content-end" id="opciones">
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Cotizador</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="creditos_S_R.php">Créditos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Átomo</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Ayuda</a>
-            </li>
+            <?php if($pagina != 'formulario.php'){?>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cotizador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="creditos_S_R.php">Créditos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Átomo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ayuda</a>
+                </li>
+            <?php } ?>
             <li class="nav-item">
                 <a class="nav-link font-weight-normal" href="#">¿Ya tienes una cuenta?</a>
             </li>

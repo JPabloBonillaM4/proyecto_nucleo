@@ -19,8 +19,8 @@
                                 <p class="m-0">Monto a pagar por disposición: <span class="font-weight-bold">$101,750.00</span></p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center opciones_calcular mt-5">
-                                <a href="#" class="text-center"><i class="fas fa-chevron-left"></i> Regresar y calcular de nuevo</a>
-                                <a href="#" class="text-white py-1 px-3 rounded font-weight-bold text-center">Solicitar crédito <i class="fas fa-chevron-right"></i></a>
+                                <a href="#" onclick="window.history.back();" class="text-center"><i class="fas fa-chevron-left"></i> Regresar y calcular de nuevo</a>
+                                <a href="aprobado.php" class="text-white py-1 px-3 rounded font-weight-bold text-center">Solicitar crédito <i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                         <div class="borde_inferior_creditos rounded-bottom"></div>

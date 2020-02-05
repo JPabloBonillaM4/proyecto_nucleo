@@ -21,3 +21,4 @@
     <title>Nucleo capital</title>
 </head>
 <body>
+<?php $pagina = basename($_SERVER['PHP_SELF']); ?>

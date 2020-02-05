@@ -58,8 +58,9 @@
     color: rgb(64,51,123) !important;
 }
 
-.titulo p{
+.titulo a{
     color: rgb(161,171,172) !important;
+    text-decoration-color: rgb(161,171,172) !important;
 }
 
 .creditos{
@@ -277,4 +278,9 @@
 
 #revolvente h2{
     color: rgb(74, 181, 235);
+}
+
+/* FORMULARIO */
+.formulario_registro{
+    
 }

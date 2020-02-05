@@ -6,7 +6,9 @@
 
         <div class="container text-center titulo mt-3">
             <h2 class="text-uppercase font-weight-bold">¡queremos ser el núcleo de tu crecimiento!</h2>
-            <p class="font-weight-bold">Solicita tu crédito y obtén aprobación en minutos</p>
+            <a href="formulario.php">
+                <p class="font-weight-bold">Solicita tu crédito y obtén aprobación en minutos</p>
+            </a>
         </div>
         <!-- CREDITOS -->
         <?php include('includes/creditos.php'); ?>

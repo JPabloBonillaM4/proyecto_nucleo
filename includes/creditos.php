@@ -1,4 +1,3 @@
-<?php $pagina = basename($_SERVER['PHP_SELF']); ?>
 <div class="creditos">
     <h4 class="font-weight-bold">Calcula tu pago</h4>
     <div class="row">
@@ -53,16 +52,16 @@
                             </div>
                             <?php if($pagina != 'credito_revolvente_2.php') { ?>
                                 <div class="col-md-12 form-group">
-                                    <label class="font-weight-bold" for="plazos">Monto a disponer de tu línea de crédito:</label>
+                                    <label class="font-weight-bold">Monto a disponer de tu línea de crédito:</label>
                                     <input type="text" class="w-100 form-control" disabled>
                                 </div>
                             <?php } ?>
                             <div class="col-md-12 d-flex align-items-center">
-                                <label class="font-weight-bold w-50" for="garantia">¿En que plazo?</label>
-                                <input type="text" name="garantia" id="garantia" class="form-control w-50" placeholder="1 a 90 días" disabled>
+                                <label class="font-weight-bold w-50" for="plazo">¿En que plazo?</label>
+                                <input type="text" name="plazo" id="plazo" class="form-control w-50" placeholder="1 a 90 días" disabled>
                             </div>
                             <div class="col-md-12 pt-3 pb-3 pr-0 pl-0">
-                                <button type="submit" class="text-white w-50 d-block m-auto btn boton_calcular font-weight-bold pt-1 pb-1">Calcular</button>
+                                <a href="calcular_pago.php" class="text-white w-50 d-block m-auto btn boton_calcular font-weight-bold pt-1 pb-1">Calcular</a>
                             </div>
                         </form>
                     </div>
