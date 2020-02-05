@@ -215,7 +215,8 @@
 
 .credito_aprobado a,
 .credito_rechazado a,
-.opciones_calcular a:first-of-type{
+.opciones_calcular a:first-of-type,
+.registro_botones a:first-of-type{
     text-decoration: none;
     color: rgb(91, 81, 131);
 }
@@ -281,6 +282,55 @@
 }
 
 /* FORMULARIO */
-.formulario_registro{
-    
+.formulario_registro > div{
+    text-align: center;
+}
+
+.formulario_registro > div p{
+    color: rgb(161,171,172) !important;
+}
+
+.formulario_registro .registro_info{
+    -webkit-box-shadow: 0px 0px 15px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 15px -8px rgba(0,0,0,1);
+    box-shadow: 0px 0px 15px -8px rgba(0,0,0,1);
+}
+
+.formulario_registro .registro_info h3{
+    color: rgb(77, 127, 138);
+}
+
+.formulario_registro .registro_info input::placeholder
+{
+    color: rgb(206,206,206) !important;
+}
+
+.formulario_registro .registro_info form > div div:nth-child(2){
+    display: grid;
+    row-gap: 1em;
+}
+
+.formulario_registro .registro_info form > div{
+    margin: 0;
+}
+
+@media only screen and (min-width: 568px)
+{
+    .formulario_registro .registro_info form > div div:nth-child(2){
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2em;
+    }
+
+    .formulario_registro > div{
+        text-align: initial;
+    }
+
+    .formulario_registro .registro_info form > div{
+        margin-left: 2rem;
+    }
+
+}
+
+.registro_botones a:last-of-type{
+    background-color: rgb(159, 151, 188);
 }
