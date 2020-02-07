@@ -331,6 +331,25 @@
 
 }
 
-.registro_botones a:last-of-type{
+/* BOTONES */
+
+.registro_botones button:last-of-type{
     background-color: rgb(159, 151, 188);
+    border: none;
+    cursor: pointer;
+    transition: 500ms;
+    outline: none;
+}
+
+.registro_botones button:last-of-type:disabled{
+    background-color: rgb(220, 214, 241);
+}
+
+.registro_botones button:last-of-type:disabled:hover{
+    background-color: rgb(220, 214, 241);
+    cursor: not-allowed;
+}
+
+.registro_botones button:last-of-type:hover{
+    background-color: rgb(133, 124, 167);
 }
