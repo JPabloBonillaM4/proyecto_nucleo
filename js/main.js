@@ -6,9 +6,20 @@ function mayusculas(event){
 $(document).ready(function(){
     // VARIABLES Y ACCIONES DE INICIO
     let data = {};
-    $('#name').focus();actions
+    $('#name').focus();
     $('#phone').on('keypress',validarNumerico);
     $('#actions').on('keypress',validarNumerico);
+
+    // RETORNAR SECCIONES
+    $('#regresar_seccion1').click(function(event){
+        event.preventDefault();
+        seccionAnterior('#seccion2')
+    });
+
+    $('#regresar_seccion2-1').click(function(event){
+        event.preventDefault();
+        seccionAnterior('#seccion2-1')
+    });
 
     // VALIDACION DE SECCION 1
     $('#continuar_seccion2').click(function(event){
@@ -39,6 +50,18 @@ $(document).ready(function(){
         }
     });
 
+    // VALIDACION SECCION 2
+    $('#continuar_seccion2-1').click(function(event){
+        event.preventDefault();
+        mostrarSeccion('#seccion2');
+    });
+
+    // VALIDACION SECCION 2-1
+    $('#continuar_seccion3').click(function(event){
+        event.preventDefault();
+        mostrarSeccion('#continuar_seccion2-1');
+    })
+
     // VALIDAR CONTRASEÑAS
     function validacionContraseñas(pass1, pass2){
         let respuesta = {};
@@ -62,7 +85,7 @@ $(document).ready(function(){
 
     }
 
-    // VALIDAR NUMERO TELEFONICO
+    // VALIDAR SOLO VALOR NUMERICO
     function validarNumerico(event){
         if(event.which < 48 || event.which > 57)
         {
@@ -70,11 +93,19 @@ $(document).ready(function(){
         } 
     }
 
-    // MOSTRAR SECCION SIGUIENTE DEL REGISTRO
+    // MOSTRAR SECCION SIGUIENTE
     function mostrarSeccion(seccion){
         $(seccion).slideToggle('slow');
         setTimeout(() => {
             $(seccion).next().slideToggle('slow');
+        }, 1000);
+    }
+
+    //MOSTRAR SECCION ANTERIOR
+    function seccionAnterior(seccion){
+        $(seccion).slideToggle('slow');
+        setTimeout(() => {
+            $(seccion).prev().slideToggle('slow');
         }, 1000);
     }
 
